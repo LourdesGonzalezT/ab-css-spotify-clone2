@@ -7,17 +7,169 @@ White: #FFF
 
 */
 
-.header {
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    max-width: 1500px;
+}
+
+nav {
     display: flex;
     align-items: center;
-    align-content: space-between;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .logo img {
-    height: 50px;
+
+    width: 150px;
 }
 
-nav a {
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.nav-link a {
     text-decoration: none;
     color: black;
+}
+
+.nav-link {
+    margin-right: 30px;
+}
+
+.landing {
+    width: 100%;
+}
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.contenedor h1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contenedor p {
+    position: absolute;
+    color: white;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2em;
+}
+
+.red {
+    margin-top: 30px;
+}
+
+.red h1 {
+    text-align: center;
+
+}
+
+.red hr {
+    display: flex;
+    width: 200px;
+    height: 2px;
+    justify-items: center;
+    background-color: #00B172;
+    margin-left: 42%;
+}
+
+.orange {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+
+}
+
+.yellow {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 50px;
+    flex: 33%;
+
+}
+
+
+.yellow img {
+    width: 120px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.yellow h3 {
+    text-align: center;
+    color: #00B172;
+}
+
+.yellow p {
+    text-align: center;
+    padding: 10px 50px;
+}
+
+.green {
+    background-image: url(/images/spotify-icon-white.png);
+    background-size: 100px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: #00B172;
+    background-repeat: no-repeat;
+    padding: 100px;
+    color: white;
+    display: flex;
+}
+
+.image img {
+    width: 400px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.text hr {
+    background-color: white;
+    height: 2px;
+    width: 540px;
+    margin-bottom: 40px;
+
+}
+
+.text h2 {
+    font-size: 40px;
+
+}
+
+.text2 {
+    padding-right: 400px;
+}
+
+.white h4 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.white p {
+    font-size: 20px;
+    margin-bottom: 30px;
+
 }
