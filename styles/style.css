@@ -1,0 +1,23 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+.header {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
